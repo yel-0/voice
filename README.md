@@ -1,0 +1,2 @@
+# ProjectSetUp
+npm install vite
