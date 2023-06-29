@@ -1,0 +1,10 @@
+.main {
+  overflow: auto;
+
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+}
+
+.scroll-area {
+  scroll-snap-align: center;
+}
