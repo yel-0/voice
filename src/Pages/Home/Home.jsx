@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div className="w-full h-screen text-center flex flex-row justify-around items-center">
+    <div className="w-full h-screen text-center flex flex-col justify-around items-center">
       <Link to="/alarm">Alarm</Link>
       <Link to="/broadcast">broadcast</Link>
       <Link to="/healthyFoods">healthyFoods</Link>

@@ -44,26 +44,30 @@ const Ouotes = () => {
   return (
     <div className="main relative">
       <div className="fixed text-white w-full bottom-0 p-5 ">
-        <div className="flex flex-row justify-around items-center ">
-          <button
-            className="bg-[#9DB2BF] p-3  cursor-pointer rounded-xl"
-            onClick={() => window.my_modal_1.showModal()}
-          >
-            My favorites
-          </button>
+        <div className="flex flex-row justify-around   items-center ">
+          <div>
+            <button
+              className="bg-[#9DB2BF] p-3  cursor-pointer rounded-xl"
+              onClick={() => window.my_modal_1.showModal()}
+            >
+              My favorites
+            </button>
 
-          <ModelBox
-            selectedGender={selectedGender}
-            setSelectedGender={setSelectedGender}
-          />
+            <ModelBox
+              selectedGender={selectedGender}
+              setSelectedGender={setSelectedGender}
+            />
+          </div>
 
-          <button
-            className="bg-[#9DB2BF] p-3 rounded-xl"
-            onClick={() => window.my_modal_3.showModal()}
-          >
-            icon
-          </button>
-          <BgModelBox />
+          <div>
+            <button
+              className="bg-[#9DB2BF] p-3 rounded-xl"
+              onClick={() => window.my_modal_3.showModal()}
+            >
+              icon
+            </button>
+            <BgModelBox />
+          </div>
         </div>
       </div>
       {selectedGender === ""

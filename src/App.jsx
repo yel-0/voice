@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "./firebase";
+// import "./firebase";
 import { QueryClient, QueryClientProvider } from "react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ReactQueryDevtools } from "react-query/devtools";
